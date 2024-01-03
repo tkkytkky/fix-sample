@@ -1,0 +1,207 @@
+20240102-04:39:35: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-04:39:35: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240102-04:39:36: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240102-04:39:36: Exception during connection to localhost/127.0.0.1:9876 (Next retry in 30000 milliseconds)
+java.util.concurrent.RejectedExecutionException: Task org.apache.mina.util.NamePreservingRunnable@751139eb rejected from java.util.concurrent.ThreadPoolExecutor@65c58115[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2065)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:833)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1365)
+	at org.apache.mina.core.service.AbstractIoService.executeWorker(AbstractIoService.java:483)
+	at org.apache.mina.core.service.AbstractIoService.executeWorker(AbstractIoService.java:475)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.startupWorker(AbstractPollingIoConnector.java:413)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.connect0(AbstractPollingIoConnector.java:395)
+	at org.apache.mina.core.service.AbstractIoConnector.connect(AbstractIoConnector.java:331)
+	at org.apache.mina.core.service.AbstractIoConnector.connect(AbstractIoConnector.java:207)
+	at quickfix.mina.initiator.IoSessionInitiator$ConnectTask.connect(IoSessionInitiator.java:223)
+	at quickfix.mina.initiator.IoSessionInitiator$ConnectTask.run(IoSessionInitiator.java:208)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+20240102-05:05:59: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-05:05:59: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240102-05:05:59: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240102-05:05:59: MINA session created: local=/127.0.0.1:59269, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20240102-05:06:00: Initiated logon request
+20240102-05:06:00: Received logon
+20240102-05:06:00: Received ResendRequest FROM: 1 TO: infinity
+20240102-05:06:00: Sent SequenceReset TO: 3
+20240102-05:07:52: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-05:07:52: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240102-05:07:53: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240102-05:07:53: MINA session created: local=/127.0.0.1:59278, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20240102-05:07:54: Initiated logon request
+20240102-05:07:54: Received logon
+20240102-05:07:54: Received ResendRequest FROM: 6 TO: infinity
+20240102-05:07:54: Sent SequenceReset TO: 8
+20240102-05:09:46: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-05:09:46: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240102-05:09:46: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240102-05:09:46: MINA session created: local=/127.0.0.1:59292, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20240102-05:09:47: Initiated logon request
+20240102-05:09:47: Received logon
+20240102-05:09:47: Received ResendRequest FROM: 11 TO: infinity
+20240102-05:09:47: Sent SequenceReset TO: 13
+20240102-05:14:25: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-05:14:25: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240102-05:14:25: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240102-05:14:25: MINA session created: local=/127.0.0.1:59304, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20240102-05:14:26: Initiated logon request
+20240102-05:14:26: Received logon
+20240102-05:14:26: Received ResendRequest FROM: 22 TO: infinity
+20240102-05:14:26: Sent SequenceReset TO: 24
+20240102-05:14:41: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-05:14:41: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240102-05:14:41: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240102-05:14:42: MINA session created: local=/127.0.0.1:59306, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20240102-05:14:43: Initiated logon request
+20240102-05:14:43: Disconnecting: Encountered END_OF_STREAM
+20240102-05:15:04: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-05:15:04: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240102-05:15:04: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240102-05:15:04: MINA session created: local=/127.0.0.1:59309, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20240102-05:15:05: Initiated logon request
+20240102-05:15:05: Received logon
+20240102-05:15:05: Received ResendRequest FROM: 25 TO: infinity
+20240102-05:15:05: Sent SequenceReset TO: 27
+20240102-05:15:18: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-05:15:18: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240102-05:15:19: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240102-05:15:19: MINA session created: local=/127.0.0.1:59310, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20240102-05:15:20: Initiated logon request
+20240102-05:15:20: Disconnecting: Encountered END_OF_STREAM
+20240102-05:33:30: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-05:33:30: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240102-05:33:30: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240102-05:33:30: MINA session created: local=/127.0.0.1:59334, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20240102-05:33:31: Initiated logon request
+20240102-05:33:31: Received logon
+20240102-05:33:31: Received ResendRequest FROM: 27 TO: infinity
+20240102-05:33:31: Sent SequenceReset TO: 30
+20240102-05:33:31: Resending message: 30
+20240102-05:33:31: Sent SequenceReset TO: 32
+20240102-05:37:11: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-05:37:11: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240102-05:37:11: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240102-05:37:11: java.net.ConnectException during connection to localhost/127.0.0.1:9876: java.net.ConnectException: Connection refused: no further information (Next retry in 30000 milliseconds)
+20240102-05:37:34: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-05:37:34: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240102-05:37:34: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240102-05:37:34: MINA session created: local=/127.0.0.1:59348, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20240102-05:37:35: Initiated logon request
+20240102-05:37:35: Disconnecting: Encountered END_OF_STREAM
+20240102-05:38:56: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-05:38:56: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240102-05:38:56: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240102-05:38:56: MINA session created: local=/127.0.0.1:59350, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20240102-05:38:57: Initiated logon request
+20240102-05:38:57: Received logon
+20240102-05:38:57: Received ResendRequest FROM: 38 TO: infinity
+20240102-05:38:57: Sent SequenceReset TO: 39
+20240102-05:38:57: Resending message: 39
+20240102-05:38:57: Sent SequenceReset TO: 41
+20240102-05:38:57: Resending message: 41
+20240102-05:38:57: Sent SequenceReset TO: 44
+20240102-05:38:57: Resending message: 44
+20240102-05:38:57: Sent SequenceReset TO: 46
+20240102-05:41:13: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-05:41:13: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240102-05:41:14: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240102-05:41:14: MINA session created: local=/127.0.0.1:59361, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20240102-05:41:15: Initiated logon request
+20240102-05:41:15: Disconnecting: Encountered END_OF_STREAM
+20240102-05:41:20: Disconnecting: Socket exception (localhost/127.0.0.1:9876): java.net.SocketException: Connection reset
+20240102-05:41:30: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-05:41:30: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240102-05:41:30: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240102-05:41:30: MINA session created: local=/127.0.0.1:59363, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20240102-05:41:31: Initiated logon request
+20240102-05:41:31: Received logon
+20240102-05:41:31: Initiated logout request
+20240102-05:41:31: Received ResendRequest FROM: 50 TO: infinity
+20240102-05:41:31: Sent SequenceReset TO: 52
+20240102-05:41:31: Resending message: 52
+20240102-05:41:31: Sent SequenceReset TO: 54
+20240102-05:41:31: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=54: 8=FIX.4.49=8835=D34=4749=ACCEPTOR52=20240102-05:41:31.75456=INITIATOR11=1234544=150.2555=AAPL10=093
+20240102-05:41:31: Reject sent for message 47: Required tag missing, field=54
+20240102-05:41:31: Received logout response
+20240102-05:41:31: Disconnecting: Received logout response
+20240102-05:41:44: MINA session created: local=/127.0.0.1:59364, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20240102-05:41:45: Initiated logon request
+20240102-05:41:45: Received logout request: Logon attempt when session is disabled
+20240102-05:41:45: Sent logout response
+20240102-05:41:45: Disconnecting: Received logout request: Logon attempt when session is disabled
+20240102-05:42:19: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-05:42:19: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240102-05:42:19: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240102-05:42:19: MINA session created: local=/127.0.0.1:59366, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20240102-05:42:20: Initiated logon request
+20240102-05:42:20: Received logon
+20240102-05:42:20: MsgSeqNum too high, expecting 50 but received 51: 8=FIX.4.49=7335=A34=5149=ACCEPTOR52=20240102-05:42:20.71956=INITIATOR98=0108=3010=050
+20240102-05:42:20: Enqueued at pos 51: 8=FIX.4.49=7335=A34=5149=ACCEPTOR52=20240102-05:42:20.71956=INITIATOR98=0108=3010=050
+20240102-05:42:20: Sent ResendRequest FROM: 50 TO: infinity
+20240102-05:42:20: Initiated logout request
+20240102-05:42:20: Enqueued at pos 52: 8=FIX.4.49=7135=234=5249=ACCEPTOR52=20240102-05:42:20.72156=INITIATOR7=5016=010=177
+20240102-05:42:20: Received ResendRequest FROM: 50 TO: infinity
+20240102-05:42:20: Sent SequenceReset TO: 55
+20240102-05:42:20: Resending message: 55
+20240102-05:42:20: Sent SequenceReset TO: 57
+20240102-05:42:20: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=54: 8=FIX.4.49=8835=D34=5349=ACCEPTOR52=20240102-05:42:20.74656=INITIATOR11=1234544=150.2555=AAPL10=090
+20240102-05:42:20: Reject sent for message 53: Required tag missing, field=54
+20240102-05:42:20: Received logout response
+20240102-05:42:20: Disconnecting: Received logout response
+20240102-05:42:20: Received SequenceReset FROM: 50 TO: 53
+20240102-05:42:20: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=54: 8=FIX.4.49=11935=D34=5343=Y49=ACCEPTOR52=20240102-05:42:20.74856=INITIATOR122=20240102-05:42:20.74611=1234544=150.2555=AAPL10=128
+20240102-05:42:20: Tried to send a reject while not logged on: Required tag missing, field=54
+quickfix.SessionException: Tried to send a reject while not logged on: Required tag missing, field=54
+	at quickfix.Session.generateReject(Session.java:1583)
+	at quickfix.Session.handleExceptionAndRejectMessage(Session.java:1199)
+	at quickfix.Session.next(Session.java:1081)
+	at quickfix.Session.next(Session.java:1228)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy$SessionMessageEvent.processMessage(SingleThreadedEventHandlingStrategy.java:163)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy.block(SingleThreadedEventHandlingStrategy.java:113)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy.lambda$blockInThread$1(SingleThreadedEventHandlingStrategy.java:145)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy$ThreadAdapter$RunnableWrapper.run(SingleThreadedEventHandlingStrategy.java:267)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+20240102-05:42:20: MsgSeqNum too high, expecting 53 but received 54: 8=FIX.4.49=10435=434=5443=Y49=ACCEPTOR52=20240102-05:42:20.74956=INITIATOR122=20240102-05:42:20.74936=55123=Y10=119
+20240102-05:42:20: Enqueued at pos 54: 8=FIX.4.49=10435=434=5443=Y49=ACCEPTOR52=20240102-05:42:20.74956=INITIATOR122=20240102-05:42:20.74936=55123=Y10=119
+20240102-05:42:20: No responder, not sending message: 8=FIX.4.49=7135=234=5849=INITIATOR52=20240102-05:42:20.75356=ACCEPTOR7=5316=010=191
+20240102-05:42:20: Sent ResendRequest FROM: 53 TO: infinity
+20240103-10:54:35: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240103-10:54:35: Session state is not current; resetting FIX.4.4:INITIATOR->ACCEPTOR
+20240103-10:54:35: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240103-10:54:35: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240103-10:54:35: MINA session created: local=/127.0.0.1:58061, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20240103-10:54:36: Initiated logon request
+20240103-10:54:36: Received logon
+20240103-10:54:36: Initiated logout request
+20240103-10:54:36: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=54: 8=FIX.4.49=8735=D34=249=ACCEPTOR52=20240103-10:54:36.54656=INITIATOR11=1234544=150.2555=AAPL10=040
+20240103-10:54:36: Reject sent for message 2: Required tag missing, field=54
+20240103-10:54:36: Received logout response
+20240103-10:54:36: Disconnecting: Received logout response
+20240103-10:59:31: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240103-10:59:31: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240103-10:59:31: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240103-10:59:31: MINA session created: local=/127.0.0.1:58144, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20240103-11:19:04: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240103-11:19:04: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240103-11:19:04: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240103-11:19:04: MINA session created: local=/127.0.0.1:58354, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20240103-11:19:05: Initiated logon request
+20240103-11:19:05: Received logon
+20240103-11:19:05: Initiated logout request
+20240103-11:19:05: Received ResendRequest FROM: 5 TO: infinity
+20240103-11:19:05: Resending message: 5
+20240103-11:19:05: Sent SequenceReset TO: 7
+20240103-11:19:05: Resending message: 7
+20240103-11:19:05: Sent SequenceReset TO: 9
+20240103-11:19:05: Resending message: 9
+20240103-11:19:05: Sent SequenceReset TO: 11
+20240103-11:19:05: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=54: 8=FIX.4.49=8735=D34=749=ACCEPTOR52=20240103-11:19:05.53056=INITIATOR11=1234544=150.2555=AAPL10=036
+20240103-11:19:05: Reject sent for message 7: Required tag missing, field=54
+20240103-11:19:05: Received logout response
+20240103-11:19:05: Disconnecting: Received logout response

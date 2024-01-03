@@ -1,0 +1,194 @@
+20240102-04:37:02: Session FIX.4.4:ACCEPTOR->INITIATOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-04:37:02: Created session: FIX.4.4:ACCEPTOR->INITIATOR
+20240102-05:06:00: Accepting session FIX.4.4:ACCEPTOR->INITIATOR from /127.0.0.1:59269
+20240102-05:06:00: Acceptor heartbeat set to 30 seconds
+20240102-05:06:00: Received logon
+20240102-05:06:00: Responding to Logon request
+20240102-05:06:00: MsgSeqNum too high, expecting 1 but received 2: 8=FIX.4.49=7235=A34=249=INITIATOR52=20240102-05:06:00.78156=ACCEPTOR98=0108=3010=250
+20240102-05:06:00: Enqueued at pos 2: 8=FIX.4.49=7235=A34=249=INITIATOR52=20240102-05:06:00.78156=ACCEPTOR98=0108=3010=250
+20240102-05:06:00: Sent ResendRequest FROM: 1 TO: infinity
+20240102-05:06:00: ResendRequest for messages FROM 1 TO 1 has been satisfied.
+20240102-05:06:00: Received SequenceReset FROM: 1 TO: 3
+20240102-05:07:39: Disconnecting: Socket exception (/127.0.0.1:59269): java.net.SocketException: Connection reset
+20240102-05:07:54: Accepting session FIX.4.4:ACCEPTOR->INITIATOR from /127.0.0.1:59278
+20240102-05:07:54: Acceptor heartbeat set to 30 seconds
+20240102-05:07:54: Received logon
+20240102-05:07:54: Responding to Logon request
+20240102-05:07:54: MsgSeqNum too high, expecting 6 but received 7: 8=FIX.4.49=7235=A34=749=INITIATOR52=20240102-05:07:54.13256=ACCEPTOR98=0108=3010=255
+20240102-05:07:54: Enqueued at pos 7: 8=FIX.4.49=7235=A34=749=INITIATOR52=20240102-05:07:54.13256=ACCEPTOR98=0108=3010=255
+20240102-05:07:54: Sent ResendRequest FROM: 6 TO: infinity
+20240102-05:07:54: ResendRequest for messages FROM 6 TO 6 has been satisfied.
+20240102-05:07:54: Received SequenceReset FROM: 6 TO: 8
+20240102-05:09:41: Disconnecting: Socket exception (/127.0.0.1:59278): java.net.SocketException: Connection reset
+20240102-05:09:47: Accepting session FIX.4.4:ACCEPTOR->INITIATOR from /127.0.0.1:59292
+20240102-05:09:47: Acceptor heartbeat set to 30 seconds
+20240102-05:09:47: Received logon
+20240102-05:09:47: Responding to Logon request
+20240102-05:09:47: MsgSeqNum too high, expecting 11 but received 12: 8=FIX.4.49=7335=A34=1249=INITIATOR52=20240102-05:09:47.92756=ACCEPTOR98=0108=3010=060
+20240102-05:09:47: Enqueued at pos 12: 8=FIX.4.49=7335=A34=1249=INITIATOR52=20240102-05:09:47.92756=ACCEPTOR98=0108=3010=060
+20240102-05:09:47: Sent ResendRequest FROM: 11 TO: infinity
+20240102-05:09:47: ResendRequest for messages FROM 11 TO 11 has been satisfied.
+20240102-05:09:47: Received SequenceReset FROM: 11 TO: 13
+20240102-05:14:19: Disconnecting: Socket exception (/127.0.0.1:59292): java.net.SocketException: Connection reset
+20240102-05:14:26: Accepting session FIX.4.4:ACCEPTOR->INITIATOR from /127.0.0.1:59304
+20240102-05:14:26: Acceptor heartbeat set to 30 seconds
+20240102-05:14:26: Received logon
+20240102-05:14:26: Responding to Logon request
+20240102-05:14:26: MsgSeqNum too high, expecting 22 but received 23: 8=FIX.4.49=7335=A34=2349=INITIATOR52=20240102-05:14:26.86056=ACCEPTOR98=0108=3010=051
+20240102-05:14:26: Enqueued at pos 23: 8=FIX.4.49=7335=A34=2349=INITIATOR52=20240102-05:14:26.86056=ACCEPTOR98=0108=3010=051
+20240102-05:14:26: Sent ResendRequest FROM: 22 TO: infinity
+20240102-05:14:26: ResendRequest for messages FROM 22 TO 22 has been satisfied.
+20240102-05:14:26: Received SequenceReset FROM: 22 TO: 24
+20240102-05:14:43: Multiple logons/connections for this session are not allowed. Closing connection from /127.0.0.1:59306 since session is already established from /127.0.0.1:59304
+20240102-05:14:59: Disconnecting: Socket exception (/127.0.0.1:59304): java.net.SocketException: Connection reset
+20240102-05:15:05: Accepting session FIX.4.4:ACCEPTOR->INITIATOR from /127.0.0.1:59309
+20240102-05:15:05: Acceptor heartbeat set to 30 seconds
+20240102-05:15:05: Received logon
+20240102-05:15:05: Responding to Logon request
+20240102-05:15:05: MsgSeqNum too high, expecting 25 but received 26: 8=FIX.4.49=7335=A34=2649=INITIATOR52=20240102-05:15:05.31456=ACCEPTOR98=0108=3010=046
+20240102-05:15:05: Enqueued at pos 26: 8=FIX.4.49=7335=A34=2649=INITIATOR52=20240102-05:15:05.31456=ACCEPTOR98=0108=3010=046
+20240102-05:15:05: Sent ResendRequest FROM: 25 TO: infinity
+20240102-05:15:05: ResendRequest for messages FROM 25 TO 25 has been satisfied.
+20240102-05:15:05: Received SequenceReset FROM: 25 TO: 27
+20240102-05:15:20: Multiple logons/connections for this session are not allowed. Closing connection from /127.0.0.1:59310 since session is already established from /127.0.0.1:59309
+20240102-05:15:25: Disconnecting: Socket exception (/127.0.0.1:59309): java.net.SocketException: Connection reset
+20240102-05:33:22: Session FIX.4.4:ACCEPTOR->INITIATOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-05:33:22: Created session: FIX.4.4:ACCEPTOR->INITIATOR
+20240102-05:33:31: Accepting session FIX.4.4:ACCEPTOR->INITIATOR from /127.0.0.1:59334
+20240102-05:33:31: Acceptor heartbeat set to 30 seconds
+20240102-05:33:31: Received logon
+20240102-05:33:31: Responding to Logon request
+20240102-05:33:31: MsgSeqNum too high, expecting 27 but received 31: 8=FIX.4.49=7335=A34=3149=INITIATOR52=20240102-05:33:31.62856=ACCEPTOR98=0108=3010=049
+20240102-05:33:31: Enqueued at pos 31: 8=FIX.4.49=7335=A34=3149=INITIATOR52=20240102-05:33:31.62856=ACCEPTOR98=0108=3010=049
+20240102-05:33:31: Sent ResendRequest FROM: 27 TO: infinity
+20240102-05:33:31: Received SequenceReset FROM: 27 TO: 30
+20240102-05:33:31: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=54: 8=FIX.4.49=11935=D34=3043=Y49=INITIATOR52=20240102-05:33:31.68456=ACCEPTOR122=20240102-05:33:30.68011=1234544=150.2555=AAPL10=122
+20240102-05:33:31: Reject sent for message 30: Required tag missing, field=54
+20240102-05:33:31: Processing queued message: 31
+20240102-05:34:02: ResendRequest for messages FROM 27 TO 30 has been satisfied.
+20240102-05:36:53: Disconnecting: Socket exception (/127.0.0.1:59334): java.net.SocketException: Connection reset
+20240102-05:37:21: Session FIX.4.4:ACCEPTOR->INITIATOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-05:37:21: Created session: FIX.4.4:ACCEPTOR->INITIATOR
+20240102-05:37:35: Accepting session FIX.4.4:ACCEPTOR->INITIATOR from /127.0.0.1:59348
+20240102-05:37:35: Acceptor heartbeat set to 30 seconds
+20240102-05:37:35: Required field missing from logon
+20240102-05:37:35: Disconnecting: Required field missing from logon
+20240102-05:38:50: Session FIX.4.4:ACCEPTOR->INITIATOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-05:38:50: Created session: FIX.4.4:ACCEPTOR->INITIATOR
+20240102-05:38:57: Accepting session FIX.4.4:ACCEPTOR->INITIATOR from /127.0.0.1:59350
+20240102-05:38:57: Acceptor heartbeat set to 30 seconds
+20240102-05:38:57: Received logon
+20240102-05:38:57: Responding to Logon request
+20240102-05:38:57: MsgSeqNum too high, expecting 38 but received 45: 8=FIX.4.49=7335=A34=4549=INITIATOR52=20240102-05:38:57.36656=ACCEPTOR98=0108=3010=066
+20240102-05:38:57: Enqueued at pos 45: 8=FIX.4.49=7335=A34=4549=INITIATOR52=20240102-05:38:57.36656=ACCEPTOR98=0108=3010=066
+20240102-05:38:57: Sent ResendRequest FROM: 38 TO: infinity
+20240102-05:38:57: Received SequenceReset FROM: 38 TO: 39
+20240102-05:38:57: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=54: 8=FIX.4.49=11935=D34=3943=Y49=INITIATOR52=20240102-05:38:57.42156=ACCEPTOR122=20240102-05:37:11.92511=1234544=150.2555=AAPL10=138
+20240102-05:38:57: Reject sent for message 39: Required tag missing, field=54
+20240102-05:38:57: Received SequenceReset FROM: 40 TO: 41
+20240102-05:38:57: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=54: 8=FIX.4.49=11935=D34=4143=Y49=INITIATOR52=20240102-05:38:57.42356=ACCEPTOR122=20240102-05:37:34.32711=1234544=150.2555=AAPL10=134
+20240102-05:38:57: Reject sent for message 41: Required tag missing, field=54
+20240102-05:38:57: Received SequenceReset FROM: 42 TO: 44
+20240102-05:38:57: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=54: 8=FIX.4.49=11935=D34=4443=Y49=INITIATOR52=20240102-05:38:57.42356=ACCEPTOR122=20240102-05:38:56.40911=1234544=150.2555=AAPL10=143
+20240102-05:38:57: Reject sent for message 44: Required tag missing, field=54
+20240102-05:38:57: Processing queued message: 45
+20240102-05:39:28: ResendRequest for messages FROM 38 TO 44 has been satisfied.
+20240102-05:41:13: Session FIX.4.4:ACCEPTOR->INITIATOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-05:41:13: Created session: FIX.4.4:ACCEPTOR->INITIATOR
+20240102-05:41:15: Multiple logons/connections for this session are not allowed. Closing connection from /127.0.0.1:59361 since session is already established from /127.0.0.1:59350
+20240102-05:41:30: Session FIX.4.4:ACCEPTOR->INITIATOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-05:41:30: Created session: FIX.4.4:ACCEPTOR->INITIATOR
+20240102-05:41:31: Accepting session FIX.4.4:ACCEPTOR->INITIATOR from /127.0.0.1:59363
+20240102-05:41:31: Acceptor heartbeat set to 30 seconds
+20240102-05:41:31: Received logon
+20240102-05:41:31: Responding to Logon request
+20240102-05:41:31: MsgSeqNum too high, expecting 50 but received 51: 8=FIX.4.49=7335=A34=5149=INITIATOR52=20240102-05:41:31.69556=ACCEPTOR98=0108=3010=054
+20240102-05:41:31: Enqueued at pos 51: 8=FIX.4.49=7335=A34=5149=INITIATOR52=20240102-05:41:31.69556=ACCEPTOR98=0108=3010=054
+20240102-05:41:31: Sent ResendRequest FROM: 50 TO: infinity
+20240102-05:41:31: Initiated logout request
+20240102-05:41:31: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=54: 8=FIX.4.49=8835=D34=5249=INITIATOR52=20240102-05:41:31.75456=ACCEPTOR11=1234544=150.2555=AAPL10=089
+20240102-05:41:31: Reject sent for message 52: Required tag missing, field=54
+20240102-05:41:31: Received logout response
+20240102-05:41:31: Disconnecting: Received logout response
+20240102-05:41:45: Accepting session FIX.4.4:ACCEPTOR->INITIATOR from /127.0.0.1:59364
+20240102-05:41:45: Acceptor heartbeat set to 30 seconds
+20240102-05:41:45: Logon rejected: quickfix.RejectLogon: Logon attempt when session is disabled
+20240102-05:41:45: Disconnecting: Logon rejected: quickfix.RejectLogon: Logon attempt when session is disabled
+20240102-05:42:19: Session FIX.4.4:ACCEPTOR->INITIATOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240102-05:42:19: Created session: FIX.4.4:ACCEPTOR->INITIATOR
+20240102-05:42:20: Accepting session FIX.4.4:ACCEPTOR->INITIATOR from /127.0.0.1:59366
+20240102-05:42:20: Acceptor heartbeat set to 30 seconds
+20240102-05:42:20: Received logon
+20240102-05:42:20: Responding to Logon request
+20240102-05:42:20: MsgSeqNum too high, expecting 50 but received 53: 8=FIX.4.49=7335=A34=5349=INITIATOR52=20240102-05:42:20.68756=ACCEPTOR98=0108=3010=056
+20240102-05:42:20: Enqueued at pos 53: 8=FIX.4.49=7335=A34=5349=INITIATOR52=20240102-05:42:20.68756=ACCEPTOR98=0108=3010=056
+20240102-05:42:20: Sent ResendRequest FROM: 50 TO: infinity
+20240102-05:42:20: Initiated logout request
+20240102-05:42:20: Enqueued at pos 54: 8=FIX.4.49=7135=234=5449=INITIATOR52=20240102-05:42:20.72256=ACCEPTOR7=5016=010=180
+20240102-05:42:20: Received ResendRequest FROM: 50 TO: infinity
+20240102-05:42:20: Sent SequenceReset TO: 53
+20240102-05:42:20: Resending message: 53
+20240102-05:42:20: Sent SequenceReset TO: 55
+20240102-05:42:20: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=54: 8=FIX.4.49=8835=D34=5549=INITIATOR52=20240102-05:42:20.74656=ACCEPTOR11=1234544=150.2555=AAPL10=092
+20240102-05:42:20: Reject sent for message 55: Required tag missing, field=54
+20240102-05:42:20: Received logout response
+20240102-05:42:20: Disconnecting: Received logout response
+20240102-05:42:20: Received SequenceReset FROM: 50 TO: 55
+20240102-05:42:20: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=54: 8=FIX.4.49=11935=D34=5543=Y49=INITIATOR52=20240102-05:42:20.74856=ACCEPTOR122=20240102-05:42:20.74611=1234544=150.2555=AAPL10=130
+20240102-05:42:20: Tried to send a reject while not logged on: Required tag missing, field=54
+quickfix.SessionException: Tried to send a reject while not logged on: Required tag missing, field=54
+	at quickfix.Session.generateReject(Session.java:1583)
+	at quickfix.Session.handleExceptionAndRejectMessage(Session.java:1199)
+	at quickfix.Session.next(Session.java:1081)
+	at quickfix.Session.next(Session.java:1228)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy$SessionMessageEvent.processMessage(SingleThreadedEventHandlingStrategy.java:163)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy.block(SingleThreadedEventHandlingStrategy.java:113)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy.lambda$blockInThread$1(SingleThreadedEventHandlingStrategy.java:145)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy$ThreadAdapter$RunnableWrapper.run(SingleThreadedEventHandlingStrategy.java:267)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+20240102-05:42:20: MsgSeqNum too high, expecting 55 but received 56: 8=FIX.4.49=10435=434=5643=Y49=INITIATOR52=20240102-05:42:20.74956=ACCEPTOR122=20240102-05:42:20.74936=57123=Y10=123
+20240102-05:42:20: Enqueued at pos 56: 8=FIX.4.49=10435=434=5643=Y49=INITIATOR52=20240102-05:42:20.74956=ACCEPTOR122=20240102-05:42:20.74936=57123=Y10=123
+20240102-05:42:20: No responder, not sending message: 8=FIX.4.49=7135=234=5649=ACCEPTOR52=20240102-05:42:20.75356=INITIATOR7=5516=010=191
+20240102-05:42:20: Sent ResendRequest FROM: 55 TO: infinity
+20240103-10:54:34: Session FIX.4.4:ACCEPTOR->INITIATOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240103-10:54:34: Session state is not current; resetting FIX.4.4:ACCEPTOR->INITIATOR
+20240103-10:54:34: Created session: FIX.4.4:ACCEPTOR->INITIATOR
+20240103-10:54:36: Accepting session FIX.4.4:ACCEPTOR->INITIATOR from /127.0.0.1:58061
+20240103-10:54:36: Acceptor heartbeat set to 30 seconds
+20240103-10:54:36: Received logon
+20240103-10:54:36: Responding to Logon request
+20240103-10:54:36: Initiated logout request
+20240103-10:54:36: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=54: 8=FIX.4.49=8735=D34=249=INITIATOR52=20240103-10:54:36.54656=ACCEPTOR11=1234544=150.2555=AAPL10=040
+20240103-10:54:36: Reject sent for message 2: Required tag missing, field=54
+20240103-10:54:36: Received logout response
+20240103-10:54:36: Disconnecting: Received logout response
+20240103-10:59:24: Session FIX.4.4:ACCEPTOR->INITIATOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240103-10:59:24: Created session: FIX.4.4:ACCEPTOR->INITIATOR
+20240103-11:19:03: Session FIX.4.4:ACCEPTOR->INITIATOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240103-11:19:03: Created session: FIX.4.4:ACCEPTOR->INITIATOR
+20240103-11:19:05: Accepting session FIX.4.4:ACCEPTOR->INITIATOR from /127.0.0.1:58354
+20240103-11:19:05: Acceptor heartbeat set to 30 seconds
+20240103-11:19:05: Received logon
+20240103-11:19:05: Responding to Logon request
+20240103-11:19:05: MsgSeqNum too high, expecting 5 but received 8: 8=FIX.4.49=7235=A34=849=INITIATOR52=20240103-11:19:05.40956=ACCEPTOR98=0108=3010=004
+20240103-11:19:05: Enqueued at pos 8: 8=FIX.4.49=7235=A34=849=INITIATOR52=20240103-11:19:05.40956=ACCEPTOR98=0108=3010=004
+20240103-11:19:05: Sent ResendRequest FROM: 5 TO: infinity
+20240103-11:19:05: Initiated logout request
+20240103-11:19:05: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=54: 8=FIX.4.49=8735=D34=949=INITIATOR52=20240103-11:19:05.53056=ACCEPTOR11=1234544=150.2555=AAPL10=038
+20240103-11:19:05: Reject sent for message 9: Required tag missing, field=54
+20240103-11:19:05: Received logout response
+20240103-11:19:05: Disconnecting: Received logout response
+20240103-11:19:05: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=54: 8=FIX.4.49=11835=D34=543=Y49=INITIATOR52=20240103-11:19:05.53456=ACCEPTOR122=20240103-10:59:32.06711=1234544=150.2555=AAPL10=078
+20240103-11:19:05: Tried to send a reject while not logged on: Required tag missing, field=54
+quickfix.SessionException: Tried to send a reject while not logged on: Required tag missing, field=54
+	at quickfix.Session.generateReject(Session.java:1583)
+	at quickfix.Session.handleExceptionAndRejectMessage(Session.java:1199)
+	at quickfix.Session.next(Session.java:1081)
+	at quickfix.Session.next(Session.java:1228)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy$SessionMessageEvent.processMessage(SingleThreadedEventHandlingStrategy.java:163)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy.block(SingleThreadedEventHandlingStrategy.java:113)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy.lambda$blockInThread$1(SingleThreadedEventHandlingStrategy.java:145)
+	at quickfix.mina.SingleThreadedEventHandlingStrategy$ThreadAdapter$RunnableWrapper.run(SingleThreadedEventHandlingStrategy.java:267)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+

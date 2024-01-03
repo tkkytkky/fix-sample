@@ -1,0 +1,72 @@
+20240103-11:25:33: Session FIX.4.4:ACCEPTOR->INITIATOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240103-11:25:33: Created session: FIX.4.4:ACCEPTOR->INITIATOR
+20240103-11:25:35: Accepting session FIX.4.4:ACCEPTOR->INITIATOR from /127.0.0.1:58602
+20240103-11:25:35: Acceptor heartbeat set to 30 seconds
+20240103-11:25:35: Received logon
+20240103-11:25:35: Responding to Logon request
+20240103-11:25:35: Initiated logout request
+20240103-11:25:35: Received ResendRequest FROM: 4 TO: infinity
+20240103-11:25:35: Sent SequenceReset TO: 6
+20240103-11:25:35: Resending message: 6
+20240103-11:25:35: Sent SequenceReset TO: 8
+20240103-11:25:35: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=55: 8=FIX.4.49=8435=D34=749=INITIATOR52=20240103-11:25:35.29656=ACCEPTOR11=1234544=150.2554=110=060
+20240103-11:25:35: Reject sent for message 7: Required tag missing, field=55
+20240103-11:25:35: Received logout response
+20240103-11:25:35: Disconnecting: Received logout response
+20240103-11:27:12: Session FIX.4.4:ACCEPTOR->INITIATOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240103-11:27:12: Created session: FIX.4.4:ACCEPTOR->INITIATOR
+20240103-11:27:14: Accepting session FIX.4.4:ACCEPTOR->INITIATOR from /127.0.0.1:58614
+20240103-11:27:14: Acceptor heartbeat set to 30 seconds
+20240103-11:27:14: Received logon
+20240103-11:27:14: Responding to Logon request
+20240103-11:27:14: Initiated logout request
+20240103-11:27:14: Received ResendRequest FROM: 4 TO: infinity
+20240103-11:27:14: Sent SequenceReset TO: 6
+20240103-11:27:14: Resending message: 6
+20240103-11:27:14: Sent SequenceReset TO: 10
+20240103-11:27:14: Resending message: 10
+20240103-11:27:14: Sent SequenceReset TO: 12
+20240103-11:27:14: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=55: 8=FIX.4.49=9035=D34=1249=INITIATOR52=20240103-11:27:14.49056=ACCEPTOR11=1234544=150.2554=158=a10=108
+20240103-11:27:14: Reject sent for message 12: Required tag missing, field=55
+20240103-11:27:14: Received logout response
+20240103-11:27:14: Disconnecting: Received logout response
+20240103-11:31:31: Session FIX.4.4:ACCEPTOR->INITIATOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240103-11:31:31: Created session: FIX.4.4:ACCEPTOR->INITIATOR
+20240103-11:31:33: Accepting session FIX.4.4:ACCEPTOR->INITIATOR from /127.0.0.1:58649
+20240103-11:31:33: Acceptor heartbeat set to 30 seconds
+20240103-11:31:33: Received logon
+20240103-11:31:33: Responding to Logon request
+20240103-11:31:33: Initiated logout request
+20240103-11:31:33: Received ResendRequest FROM: 4 TO: infinity
+20240103-11:31:33: Sent SequenceReset TO: 6
+20240103-11:31:33: Resending message: 6
+20240103-11:31:33: Sent SequenceReset TO: 10
+20240103-11:31:33: Resending message: 10
+20240103-11:31:33: Sent SequenceReset TO: 14
+20240103-11:31:33: Resending message: 14
+20240103-11:31:33: Sent SequenceReset TO: 16
+20240103-11:31:33: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=40: 8=FIX.4.49=9535=D34=1749=INITIATOR52=20240103-11:31:33.18256=ACCEPTOR11=1234544=150.2554=155=158=a10=073
+20240103-11:31:33: Reject sent for message 17: Required tag missing, field=40
+20240103-11:31:33: Received logout response
+20240103-11:31:33: Disconnecting: Received logout response
+20240103-11:33:11: Session FIX.4.4:ACCEPTOR->INITIATOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240103-11:33:11: Created session: FIX.4.4:ACCEPTOR->INITIATOR
+20240103-11:33:13: Accepting session FIX.4.4:ACCEPTOR->INITIATOR from /127.0.0.1:58652
+20240103-11:33:13: Acceptor heartbeat set to 30 seconds
+20240103-11:33:13: Received logon
+20240103-11:33:13: Responding to Logon request
+20240103-11:33:13: Initiated logout request
+20240103-11:33:13: Received ResendRequest FROM: 4 TO: infinity
+20240103-11:33:13: Sent SequenceReset TO: 6
+20240103-11:33:13: Resending message: 6
+20240103-11:33:13: Sent SequenceReset TO: 10
+20240103-11:33:13: Resending message: 10
+20240103-11:33:13: Sent SequenceReset TO: 14
+20240103-11:33:13: Resending message: 14
+20240103-11:33:13: Sent SequenceReset TO: 18
+20240103-11:33:13: Resending message: 18
+20240103-11:33:13: Sent SequenceReset TO: 20
+20240103-11:33:13: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=60: 8=FIX.4.49=10035=D34=2249=INITIATOR52=20240103-11:33:13.37656=ACCEPTOR11=1234540=144=150.2554=155=158=a10=064
+20240103-11:33:13: Reject sent for message 22: Required tag missing, field=60
+20240103-11:33:13: Received logout response
+20240103-11:33:13: Disconnecting: Received logout response

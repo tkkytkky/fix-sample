@@ -1,0 +1,56 @@
+20240103-11:25:34: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240103-11:25:34: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240103-11:25:34: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240103-11:25:34: MINA session created: local=/127.0.0.1:58602, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20240103-11:25:35: Initiated logon request
+20240103-11:25:35: Received logon
+20240103-11:25:35: MsgSeqNum too high, expecting 4 but received 5: 8=FIX.4.49=7235=A34=549=ACCEPTOR52=20240103-11:25:35.24256=INITIATOR98=0108=3010=252
+20240103-11:25:35: Enqueued at pos 5: 8=FIX.4.49=7235=A34=549=ACCEPTOR52=20240103-11:25:35.24256=INITIATOR98=0108=3010=252
+20240103-11:25:35: Sent ResendRequest FROM: 4 TO: infinity
+20240103-11:25:35: Initiated logout request
+20240103-11:25:35: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=55: 8=FIX.4.49=8435=D34=649=ACCEPTOR52=20240103-11:25:35.29656=INITIATOR11=1234544=150.2554=110=059
+20240103-11:25:35: Reject sent for message 6: Required tag missing, field=55
+20240103-11:25:35: Received logout response
+20240103-11:25:35: Disconnecting: Received logout response
+20240103-11:27:13: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240103-11:27:13: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240103-11:27:13: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240103-11:27:13: MINA session created: local=/127.0.0.1:58614, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20240103-11:27:14: Initiated logon request
+20240103-11:27:14: Received logon
+20240103-11:27:14: MsgSeqNum too high, expecting 4 but received 9: 8=FIX.4.49=7235=A34=949=ACCEPTOR52=20240103-11:27:14.43956=INITIATOR98=0108=3010=007
+20240103-11:27:14: Enqueued at pos 9: 8=FIX.4.49=7235=A34=949=ACCEPTOR52=20240103-11:27:14.43956=INITIATOR98=0108=3010=007
+20240103-11:27:14: Sent ResendRequest FROM: 4 TO: infinity
+20240103-11:27:14: Initiated logout request
+20240103-11:27:14: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=55: 8=FIX.4.49=9035=D34=1049=ACCEPTOR52=20240103-11:27:14.49056=INITIATOR11=1234544=150.2554=158=a10=106
+20240103-11:27:14: Reject sent for message 10: Required tag missing, field=55
+20240103-11:27:14: Received logout response
+20240103-11:27:14: Disconnecting: Received logout response
+20240103-11:31:31: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240103-11:31:31: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240103-11:31:32: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240103-11:31:32: MINA session created: local=/127.0.0.1:58649, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20240103-11:31:33: Initiated logon request
+20240103-11:31:33: Received logon
+20240103-11:31:33: MsgSeqNum too high, expecting 4 but received 13: 8=FIX.4.49=7335=A34=1349=ACCEPTOR52=20240103-11:31:33.11456=INITIATOR98=0108=3010=037
+20240103-11:31:33: Enqueued at pos 13: 8=FIX.4.49=7335=A34=1349=ACCEPTOR52=20240103-11:31:33.11456=INITIATOR98=0108=3010=037
+20240103-11:31:33: Sent ResendRequest FROM: 4 TO: infinity
+20240103-11:31:33: Initiated logout request
+20240103-11:31:33: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=40: 8=FIX.4.49=9535=D34=1449=ACCEPTOR52=20240103-11:31:33.18256=INITIATOR11=1234544=150.2554=155=158=a10=070
+20240103-11:31:33: Reject sent for message 14: Required tag missing, field=40
+20240103-11:31:33: Received logout response
+20240103-11:31:33: Disconnecting: Received logout response
+20240103-11:33:12: Session FIX.4.4:INITIATOR->ACCEPTOR schedule is daily, 00:00:00-UTC - 23:59:59-UTC
+20240103-11:33:12: Created session: FIX.4.4:INITIATOR->ACCEPTOR
+20240103-11:33:12: Configured socket addresses for session: [localhost/127.0.0.1:9876]
+20240103-11:33:12: MINA session created: local=/127.0.0.1:58652, class org.apache.mina.transport.socket.nio.NioSocketSession, remote=localhost/127.0.0.1:9876
+20240103-11:33:13: Initiated logon request
+20240103-11:33:13: Received logon
+20240103-11:33:13: MsgSeqNum too high, expecting 4 but received 17: 8=FIX.4.49=7335=A34=1749=ACCEPTOR52=20240103-11:33:13.31456=INITIATOR98=0108=3010=043
+20240103-11:33:13: Enqueued at pos 17: 8=FIX.4.49=7335=A34=1749=ACCEPTOR52=20240103-11:33:13.31456=INITIATOR98=0108=3010=043
+20240103-11:33:13: Sent ResendRequest FROM: 4 TO: infinity
+20240103-11:33:13: Initiated logout request
+20240103-11:33:13: Rejecting invalid message: quickfix.FieldException: Required tag missing, field=60: 8=FIX.4.49=10035=D34=1849=ACCEPTOR52=20240103-11:33:13.37656=INITIATOR11=1234540=144=150.2554=155=158=a10=069
+20240103-11:33:13: Reject sent for message 18: Required tag missing, field=60
+20240103-11:33:13: Received logout response
+20240103-11:33:13: Disconnecting: Received logout response
